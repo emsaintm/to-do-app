@@ -1,6 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<h1>User Tasks</h1>
+<h1>My Tasks</h1>
+
+<div id="task-form">
+</div>
+
 
 <table>
   <thead>
@@ -26,4 +30,9 @@
 
 <br>
 
-<%= link_to 'New User Task', new_user_task_path %>
+
+
+
+<%= link_to 'New User Task', new_user_task_path, remote: true %>
+
+

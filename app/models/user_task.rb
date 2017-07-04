@@ -1,2 +1,3 @@
 class UserTask < ApplicationRecord
+  
 end
